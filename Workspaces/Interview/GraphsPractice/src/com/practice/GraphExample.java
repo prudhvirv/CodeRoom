@@ -1,0 +1,27 @@
+package com.practice;
+
+import java.util.Scanner;
+
+public class GraphExample {
+
+	
+	
+	public static void main(String args[]){
+		int number_of_nodes, source;
+        Scanner scanner = null;
+	    System.out.println("Enter the number of nodes in the graph");
+            scanner = new Scanner(System.in);
+            number_of_nodes = scanner.nextInt();
+ 
+	    int adjacency_matrix[][] = new int[number_of_nodes + 1][number_of_nodes + 1];
+	    System.out.println("Enter the adjacency matrix");
+	    for (int i = 1; i <= number_of_nodes; i++)
+	        for (int j = 1; j <= number_of_nodes; j++)
+                    adjacency_matrix[i][j] = scanner.nextInt();
+ 
+	    System.out.println("Enter the source for the graph");
+            source = scanner.nextInt(); 
+            
+	}
+	
+}

@@ -1,0 +1,5 @@
+1443581445540	Rename field 'next'
+1443581534764	Rename local variable 'next'
+1443581540285	Rename local variable 'nextRed'
+1443582805351	Rename method 'getNext'
+1443582812573	Rename method 'setNext'

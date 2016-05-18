@@ -1,0 +1,20 @@
+package com.interview.designpatterns;
+
+public class Request {
+
+	private RequestType requestType;
+	private int amount;
+	
+	public RequestType getRequestType() {
+		return requestType;
+	}
+	public void setRequestType(RequestType requestType) {
+		this.requestType = requestType;
+	}
+	public int getAmount() {
+		return amount;
+	}
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+}

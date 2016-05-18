@@ -1,0 +1,26 @@
+package com.interview.designpatterns;
+
+public class ChainOfResponsibilityDemo {
+
+	public static void main(String[] args) {
+		
+		Director director = new Director();
+		VP vp = new VP();
+		CEO ceo = new CEO();
+		
+		director.setSuccessor(vp);
+		vp.setSuccessor(ceo);
+		
+		
+		Request r1 = new Request(RequestType.AWARDS, 100);
+		Request r2 = new Request(RequestType.CONFERENCE, 5000);
+		Request r3 = new Request(RequestType.PURCHASES, 5000);
+		Request r4 = new Request(RequestType.PURCHASES, 50000);
+		director.handleRequest(r1);
+		director.handleRequest(r2);
+		director.handleRequest(r3);
+		director.handleRequest(r4);
+
+	}
+
+}

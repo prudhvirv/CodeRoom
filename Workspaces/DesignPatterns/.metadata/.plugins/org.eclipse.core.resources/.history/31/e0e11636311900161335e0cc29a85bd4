@@ -1,0 +1,6 @@
+package com.interview.designpatterns;
+
+public abstract class Handler {
+
+	public abstract handleRequest()
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.interview.designpatterns.Director"/>
+<fullyQualifiedTypeName name="com.interview.designpatterns.VP"/>
+<fullyQualifiedTypeName name="com.interview.designpatterns.CEO"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.interview.designpatterns.Request"/>
+<fullyQualifiedTypeName name="com.interview.designpatterns.RequestType"/>
+</qualifiedTypeNameHistroy>

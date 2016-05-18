@@ -1,0 +1,11 @@
+package com.interview.designpatterns;
+
+public class Director extends Handler {
+
+	@Override
+	public void handleRequest(Request request) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
